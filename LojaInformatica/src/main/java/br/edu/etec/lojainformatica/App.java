@@ -38,7 +38,7 @@ public class App extends JFrame{
 		this.menuBar = new JMenuBar();
 		JMenu menuCadastros = new JMenu("Cadastros");
 		
-		JMenuItem menuItemClientes = new JMenuItem("Clientes");
+		JMenuItem menuItemClientes = new JMenuItem("Pessoa Fisica");
 		menuItemClientes.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("menuClieActionPerformed...");
